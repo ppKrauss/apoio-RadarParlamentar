@@ -39,8 +39,13 @@ a partir destes, manualmente, via GDoc, foram compostos os relacionamentos compl
 
 -----
 
-# Abreviações para a tabela de prefixos
+# Abreviações para a tabela de prefixos e tipos de norma
 Caracterização de uma proposição na autoridade, e conjunto de abreviações para os tipos de proposição fixados pela autoridade.
+## Geral
+
+Regras adotadas: http://projeto.lexml.gov.br/documentacao/Parte-6-Vocabularios-Controlados.pdf
+
+Definições gerais para tipos de norma: http://www.lexml.gov.br/vocabulario/tipoDocumento.rdf.xml
 
 ## Na Câmara dos Depudados
 Conforme [Manual de Redação da  Câmara dos deputados](http://bd.camara.gov.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf),
