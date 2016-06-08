@@ -37,4 +37,67 @@ ORDER BY 1,2,3
 a partir destes, manualmente, via GDoc, foram compostos os relacionamentos completos com a coluna `urn_lex` de [urnlex_prefixos.csv](urnlex_prefixos.csv).
 
 
+-----
+
+# Abreviações para a tabela de prefixos
+Caracterização de uma proposição na autoridade, e conjunto de abreviações para os tipos de proposição fixados pela autoridade.
+
+## Na Câmara dos Depudados
+Conforme [Manual de Redação da  Câmara dos deputados](http://bd.camara.gov.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf),
+
+PROPOSIÇÃO: toda matéria sujeita à deliberação da Casa. Considera-se proposição a proposta de emenda à Constituição, os projetos, a emenda, a indicação, o requerimento, o recurso, o parecer, e a proposta de fiscalização e controle.
+
+São as seguintes as siglas das proposições legislativas na Câmara dos Deputados:
+
+* COM - Consulta solicitada por parlamentar a comissão técnica
+* DCR - Denúncia por crime de responsabilidade
+* DEN - Denúncia
+* DTQ - Destaque
+* DVS - Destaque para Votação em Separado
+* DVT - Declaração de Voto
+* EMC - Emenda Apresentada na Comissão
+* EMD - Emenda
+* EML - Emenda à LDO
+* EMO - Emenda ao Orçamento
+* EMP - Emenda de Plenário
+* EMR - Emenda de Relator
+* Sem - Emenda/Substitutivo do Senado
+* ERD - Emenda de Redação
+* ESB - Emenda ao Substitutivo
+* EXP - Exposição
+* INA - Indicação de Autoridade
+* INC - Indicação
+* MPV - Medida Provisória
+* MSC - Mensagem
+* PAR - Parecer de Comissão
+* PDC - Projeto de Decreto Legislativo
+* PEC - Proposta de Emenda à Constituição
+* PET - Petição
+* PFC - Proposta de Fiscalização e Controle
+* PL - Projeto de Lei
+* PLP - Projeto de Lei Complementar
+* PLV - Projeto de Lei de Conversão
+* PRC - Projeto de Resolução (CD)
+* PRF - Projeto de Resolução do Senado Federal
+* PRN - Projeto de Resolução (CN)
+* PRO - Proposta
+* RCP - Requerimento de Instituição de Comissão Parlamentar de Inquérito
+* REC - Recurso
+* REL - Relatório
+* REM - Reclamação
+* REP - Representação
+* REQ - Requerimento
+* RIC - Requerimento de Informação
+* RPR - Representação
+* SBE - Subemenda
+* SBT - Substitutivo
+* SDL - Sugestão de Emenda à LDO
+* SIT - Solicitação de Informação ao TCU
+* SOA - Sugestão de Emenda ao Orçamento
+* STF - Ofício dirigido à Câmara dos Deputados, em que o Supremo Tribunal Federal solicita da Casa alguma ação legislativa
+* SUG - Sugestão de entidade da sociedade civil à Câmara, para que adote alguma ação legislativa
+* SUM - Súmula de jurisprudência emitida pela CCJC
+* TER - Termo de Implementação
+* TVR - Ato do Poder Executivo que submete à Câmara a concessão de serviços de radiodifusão, sonora e de imagens
+* VTS - Voto em Separado
 
