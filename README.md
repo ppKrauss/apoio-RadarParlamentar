@@ -29,10 +29,12 @@ UPDATE modelagem_casalegislativa SET local_lex='br', autoridade_lex='camara.depu
 ## Parte2
 Gerando referencial de prefixos relevantes para os dados arquivados no Radar, 
 ```sql
-SELECT DISTINCT  c.local_lex ||':'||autoridade_lex as local_autoridade, 'proposicao' AS escopo, sigla
+
+SELECT   c.local_lex ||':'||autoridade_lex as local_autoridade, 'prj' AS escopo, sigla, count(*) as n, array_agg(DISTINCT ano) as anos
 FROM   modelagem_casalegislativa c INNER JOIN  modelagem_proposicao p
        ON p.casa_legislativa_id = c.id
-ORDER BY 1,2,3
+GROUP BY 1,2,3      
+ORDER BY 1,2,3;
 ```
 a partir destes, manualmente, via GDoc, foram compostos os relacionamentos completos com a coluna `urn_lex` de [urnlex_prefixos.csv](urnlex_prefixos.csv).
 
